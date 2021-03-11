@@ -3,13 +3,13 @@
 
 
 ## Dataset
-
+> Data set  contain individual rides made in bike-sharing system for 2-2019. we download data from udacity project page.
 > The data consisted of information about individual rides made in bike-sharing system with approximately 183412 record. The attributes included user type(subscriber or customer) each trip start and end (time,location,duration) ,members age ,gender and bike share for all trip.
 ### wrangling steps
-> We delete about 8265 with null data . 
-> change data type  of  start_time & end_time to date time.
-> change data type  of end_station_id , start_station_id , member_birth_year.
-> Isolate day and hour  of  start_time
+> * We delete about 8265 with null data . 
+> * change data type  of  start_time & end_time to date time.
+> * change data type  of end_station_id , start_station_id , member_birth_year.
+> * Isolate day and hour  of  start_time
 
 ## Summary of Findings
 
